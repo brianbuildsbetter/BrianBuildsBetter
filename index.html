@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bay Area Builders | Quality Construction</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">&#9650;</span>
+        Bay Area Builders
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get a Quote</button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-tag">Serving the Bay Area Since 1998</p>
+      <h1>Built Stronger.<br />Built Smarter.<br />Built to Last.</h1>
+      <p class="hero-sub">From custom homes to commercial builds, Bay Area Builders delivers craftsmanship and reliability on every project.</p>
+      <div class="hero-btns">
+        <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View Our Work</button>
+        <button class="btn btn-outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Free Estimate</button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">25+</span><span class="stat-label">Years Experience</span></div>
+      <div class="stat"><span class="stat-num">800+</span><span class="stat-label">Projects Completed</span></div>
+      <div class="stat"><span class="stat-num">150+</span><span class="stat-label">5-Star Reviews</span></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Licensed &amp; Insured</span></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What We Do</p>
+        <h2>Our Services</h2>
+        <p class="section-sub">We handle projects of every scale — from ground-up construction to precision renovations.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">&#127968;</div>
+          <h3>Custom Home Building</h3>
+          <p>We design and build custom homes tailored to your vision, budget, and timeline — from foundation to finish.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#127963;</div>
+          <h3>Commercial Construction</h3>
+          <p>Office buildings, retail spaces, and industrial facilities built to code with minimal disruption to your operations.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#128296;</div>
+          <h3>Home Renovations</h3>
+          <p>Kitchen remodels, bathroom upgrades, additions, and full-home renovations that add real value.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9881;</div>
+          <h3>General Contracting</h3>
+          <p>Full project management from planning through completion, coordinating every trade on-site.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#128205;</div>
+          <h3>Site Development</h3>
+          <p>Land grading, excavation, utilities, and site prep to get your project ready for construction.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#128274;</div>
+          <h3>Seismic Retrofitting</h3>
+          <p>Bay Area-specific earthquake reinforcement to bring older structures up to modern safety standards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <div class="about-img-placeholder">
+          <span>&#127959;</span>
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">25</span>
+          <span class="badge-text">Years of<br/>Excellence</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="section-tag">About Us</p>
+        <h2>A Legacy of Quality in the Bay Area</h2>
+        <p>Founded in 1998, Bay Area Builders has grown from a small family operation into one of the region's most trusted construction companies. We've worked across San Francisco, Oakland, San Jose, and everywhere in between.</p>
+        <p>Our team of licensed engineers, project managers, and skilled tradespeople takes pride in delivering on time, within budget, and beyond expectations — every single time.</p>
+        <ul class="about-list">
+          <li><span class="check">&#10003;</span> General B License — State of California</li>
+          <li><span class="check">&#10003;</span> Fully bonded and insured</li>
+          <li><span class="check">&#10003;</span> OSHA-certified safety program</li>
+          <li><span class="check">&#10003;</span> Sustainable building practices</li>
+          <li><span class="check">&#10003;</span> Member, Bay Area Contractors Association</li>
+        </ul>
+        <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Work With Us</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Our Work</p>
+        <h2>Recent Projects</h2>
+        <p class="section-sub">A sample of what we've built across the Bay Area.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card large">
+          <div class="project-img p1"></div>
+          <div class="project-info">
+            <span class="project-tag">Custom Home</span>
+            <h3>Marin County Estate</h3>
+            <p>5,200 sq ft custom build with ocean views, sustainable materials, and smart-home integration.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p2"></div>
+          <div class="project-info">
+            <span class="project-tag">Commercial</span>
+            <h3>SoMa Office Complex</h3>
+            <p>12-story Class A office building in San Francisco's SoMa district.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p3"></div>
+          <div class="project-info">
+            <span class="project-tag">Renovation</span>
+            <h3>Oakland Victorian Restore</h3>
+            <p>Full historic restoration of a 1920s Victorian home with modern systems.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p4"></div>
+          <div class="project-info">
+            <span class="project-tag">Commercial</span>
+            <h3>San Jose Retail Center</h3>
+            <p>40,000 sq ft mixed-use retail and dining destination, completed ahead of schedule.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p5"></div>
+          <div class="project-info">
+            <span class="project-tag">Renovation</span>
+            <h3>Berkeley Kitchen Remodel</h3>
+            <p>High-end kitchen transformation featuring custom cabinetry and chef-grade appliances.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Testimonials</p>
+        <h2>What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Bay Area Builders turned our dream home into a reality. They were professional, on-time, and the quality is incredible. We couldn't be happier."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <strong>Jennifer M.</strong>
+              <span>Marin County, CA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"We hired BAB for our commercial buildout and they nailed it. Delivered under budget and the space looks amazing. Our team loves it."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DL</div>
+            <div>
+              <strong>David L.</strong>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"The seismic retrofit they did on our 1950s home was thorough and reasonably priced. They explained every step. Highly recommended."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RC</div>
+            <div>
+              <strong>Rosa C.</strong>
+              <span>Oakland, CA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <p class="section-tag">Contact Us</p>
+        <h2>Let's Build Something Great</h2>
+        <p>Ready to start your project? Fill out the form and we'll get back to you within one business day.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">&#128222;</span>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+14155550100">(415) 555-0100</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128140;</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:info@bayareabuilders.com">info@bayareabuilders.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128205;</span>
+            <div>
+              <strong>Office</strong>
+              <span>1234 Market St, Suite 500<br/>San Francisco, CA 94102</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128336;</span>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Fri: 7am – 6pm<br/>Sat: 8am – 2pm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" placeholder="John" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="(415) 555-0100" />
+        </div>
+        <div class="form-group">
+          <label for="service">Service Needed *</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service...</option>
+            <option value="custom-home">Custom Home Building</option>
+            <option value="commercial">Commercial Construction</option>
+            <option value="renovation">Home Renovation</option>
+            <option value="general">General Contracting</option>
+            <option value="site">Site Development</option>
+            <option value="seismic">Seismic Retrofitting</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Project Details *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, timeline, and budget..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <div class="form-success" id="formSuccess">
+          &#10003; Thanks! We'll be in touch within one business day.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <span class="logo-icon">&#9650;</span>
+          Bay Area Builders
+        </a>
+        <p>Quality construction across the Bay Area since 1998. Licensed, bonded, and built on trust.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Custom Homes</a></li>
+          <li><a href="#services">Commercial</a></li>
+          <li><a href="#services">Renovations</a></li>
+          <li><a href="#services">Seismic Retrofit</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+14155550100">(415) 555-0100</a></li>
+          <li><a href="mailto:info@bayareabuilders.com">info@bayareabuilders.com</a></li>
+          <li><span>San Francisco, CA</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Bay Area Builders. All rights reserved. | CA License #B-123456</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
