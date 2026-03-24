@@ -151,24 +151,16 @@ img {
 }
 
 .logo {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  color: var(--white);
+  color: var(--yellow);
   display: flex;
   align-items: center;
-  gap: 8px;
+  letter-spacing: 0.05em;
   flex-shrink: 0;
   transition: color var(--transition);
 }
 
-.navbar.scrolled .logo {
-  color: var(--dark);
-}
-
-.logo-icon {
-  color: var(--yellow);
-  font-size: 1rem;
-}
 
 .nav-links {
   display: flex;
